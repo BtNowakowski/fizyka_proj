@@ -23,3 +23,6 @@ Aby uruchomić program należy wykonać następujące kroki:
 - Zainstalować wymagane biblioteki poleceniem: `pip install -r requirements.txt`
 - W konsoli przejśc do folderu z projektem
 - Uruchomić program poleceniem: `python .\source\`
+
+## Zrzuty ekranu
+![Wykres](https://github.com/BtNowakowski/fizyka_proj/assets/107316656/a7f6dbe4-4df8-41d9-9bc3-9f53238e2f76)
