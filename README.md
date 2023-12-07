@@ -19,6 +19,6 @@ Po zakończeniu symulacji program wyświetla wykres z symulacją.
 Aby uruchomić program należy wykonać następujące kroki:
 
 - Sklonować repozytorium
-- Zainstalować wymagane biblioteki (pip install -r requirements.txt)
-- w konsoli przejśc do folderu z projektem
-- Uruchomić program poleceniem: python .\source\
+- Zainstalować wymagane biblioteki poleceniem: `pip install -r requirements.txt`
+- W konsoli przejśc do folderu z projektem
+- Uruchomić program poleceniem: `python .\source\`
