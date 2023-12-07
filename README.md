@@ -6,6 +6,7 @@ Projekt polega na zasymulowaniu ruchu Browna w 2 wymiarach przy użyciu metody M
 Na początku programu użytkownik podaje ilość kroków jaką ma wykonać cząsteczka.
 Następnie program symuluje ruch cząsteczki w 2 wymiarach, zaczynając od punktu (0,0).
 Po zakończeniu symulacji program wyświetla wykres z symulacją.
+Dodatkowo program generuje plik png z wykresem symulacji oraz plik .xlsx z danymi symulacji.
 
 ## Założenia projektu
 
