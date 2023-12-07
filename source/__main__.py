@@ -16,12 +16,12 @@ def monte_carlo_brownian_motion(n_steps):
         # Generowanie losowego kąta w radianach <0, 2pi>
         angle = np.random.uniform(0, 2 * np.pi)
 
-        # Generowanie losowej długości kroku
-        step_length = np.random.normal(0, 1)
+        # # Generowanie losowej długości kroku
+        # step_length = np.random.normal(0, 1)
 
         # Aktualizacja położenia cząsteczki
-        x += step_length * np.cos(angle)
-        y += step_length * np.sin(angle)
+        x += np.cos(angle)
+        y += np.sin(angle)
 
         # Zapisanie aktualnego położenia
         x_positions.append(x)
