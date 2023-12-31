@@ -33,7 +33,7 @@ def monte_carlo_brownian_motion(n_steps):
 def displacement_vector(x_positions, y_positions):
     # Obliczenie wektorów przesunięcia dla każdego kroku
     displacements = []
-    for i in range(len(x_positions) - 1):
+    for i in range(len(x_positions)):
         displacements.append(np.sqrt(x_positions[i] ** 2 + y_positions[i] ** 2))
 
     return displacements
@@ -44,8 +44,9 @@ def save_to_excel(x_positions, y_positions, displacements, filename):
     data = {
         "X": x_positions,
         "Y": y_positions,
-        "Przesunięcie": [0]
-        + list(displacements),  # Dodanie 0 na początku dla równości długości list
+        "Przesunięcie": list(
+            displacements
+        ),  # Dodanie 0 na początku dla równości długości list
     }  # Dodanie 0 na początku dla równości długości list
     df = pd.DataFrame(data)
 
